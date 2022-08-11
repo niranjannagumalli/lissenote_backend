@@ -7,10 +7,10 @@ def download_images(images,file_path='./images/'):
     The image will be downloaded in the /images directory within the current working directory
     
     Parameters:
-    arg1 (dictionary): Dictionary with image title as key and image URL as the value associated with the key
+    dictionary: Dictionary with image title as key and image URL as the value associated with the key
     
     Returns:
-    dictionary : Dictionary with image title as key and image location on the local device the value associated with the key
+    dictionary: Dictionary with image title as key and image location on the local device the value associated with the key
   
     """
     image_loc = {}
